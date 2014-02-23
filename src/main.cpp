@@ -1,14 +1,14 @@
 #include <QApplication>
-#include <QDialog>
+#include <QMainWindow>
 
-#include "ui_DisplayWidget.h"
+#include "ui_MainWindow.h"
 
 int main(int argc, char* argv[])
 {
 	QApplication app(argc, argv);
-	Ui::Form form;
-	QDialog* dialog = new QDialog();
-	form.setupUi(dialog);
-	dialog->show();
+	Ui::MainWindow uiMainWindow;
+	QMainWindow* mainWindow = new QMainWindow();
+	uiMainWindow.setupUi(mainWindow);
+	mainWindow->show();
 	return app.exec();
 }

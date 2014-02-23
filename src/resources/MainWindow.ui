@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Game Box</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File(F)</string>
+    </property>
+    <addaction name="action_New"/>
+    <addaction name="action_Open_O"/>
+    <addaction name="action_Save_S"/>
+   </widget>
+   <widget class="QMenu" name="menuCreate_C">
+    <property name="title">
+     <string>Create(&amp;C)</string>
+    </property>
+    <addaction name="actionCube_C"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuCreate_C"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_New">
+   <property name="text">
+    <string>New(&amp;N)</string>
+   </property>
+  </action>
+  <action name="action_Open_O">
+   <property name="text">
+    <string>Open(&amp;O)</string>
+   </property>
+  </action>
+  <action name="action_Save_S">
+   <property name="text">
+    <string>Save(&amp;S)</string>
+   </property>
+  </action>
+  <action name="actionCube_C">
+   <property name="text">
+    <string>Cube(&amp;C)</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
