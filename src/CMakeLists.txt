@@ -1,5 +1,5 @@
 #修改版本号强制触发构建
-SET(BUILD_VERSION 4)
+SET(BUILD_VERSION 6)
 
 #设定项目名称
 SET(THIS_PROJECT_NAME MyGameBox)

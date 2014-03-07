@@ -77,7 +77,7 @@ void SceneWindow::paintGL()
 	glEnd();
 
 	glPushMatrix();
-	glTranslatef(0.51, 0.51, 0.51);
+	glTranslatef(0.51f, 0.51f, 0.51f);
 	glColor3f(1.0, 1.0, 1.0);
 	glutWireCube(1.0);
 	glPopMatrix();
