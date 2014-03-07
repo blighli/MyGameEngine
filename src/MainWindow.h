@@ -5,6 +5,8 @@
 #include <vector>
 #include <string>
 
+class SceneWindow;
+
 class MainWindow : public QMainWindow
 {
 	Q_OBJECT
@@ -12,6 +14,8 @@ class MainWindow : public QMainWindow
 public:
 	MainWindow();
 	~MainWindow();
+private:
+	SceneWindow* _sceneWindow;
 
 };
 
